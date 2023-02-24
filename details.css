@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #1a4767;
+  }
+  
+  header {
+    background-color: #0d2739;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .product-image {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .product-description {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  p:first-of-type {
+    margin-top: 40px;
+  }
+  
+  p strong {
+    color: #333;
+  }
+  
+  p em {
+    font-style: italic;
+    color: #999;
+  }
+  .logout-btn {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #cc0000;
+  }
+  

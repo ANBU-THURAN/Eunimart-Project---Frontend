@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="details.css">
+  <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+  <button class="logout-btn">Logout</button>
+  <header>
+    <h1>Product Details</h1>
+  </header>
+  <main>
+    <div class="product-details">
+      <img src="" alt="" class="product-image">
+      <h2 class="product-title"></h2>
+      <p class="product-description"></p>
+      <p class="product-price"></p>
+    </div>
+  </main>
+  <script>
+    const name = localStorage.getItem('name');
+    const phone = localStorage.getItem('phone');
+    const email = localStorage.getItem('email');
+
+    if (!name || !phone || !email) {
+      alert('Please enter your details before accessing this page.');
+      window.location.href = 'loginpage.html';
+    }
+  </script>
+  <script src="details.js"></script>
+</body>
+</html>
+

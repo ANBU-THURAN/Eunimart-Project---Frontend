@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+  <body>
+
+    <button class="logout-btn">Logout</button>
+
+    <h1>Anything you want can be found here !!!</h1>
+    <main>
+        <ul id="product-list">
+              
+        </ul> 
+    </main>
+    <script>
+      const name = localStorage.getItem('name');
+      const phone = localStorage.getItem('phone');
+      const email = localStorage.getItem('email');
+
+      if (!name || !phone || !email) {
+        alert('Please enter your details before accessing this page.');
+        window.location.href = 'loginpage.html';
+      }
+    </script>
+    <script src="homepage.js"></script>
+  </body>
+</html>
