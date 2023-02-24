@@ -1,6 +1,4 @@
 # Eunimart-Project---Frontend
-This is a web application for an online shopping store built using HTML, CSS, and JavaScript. The application allows users to login and view a list of products, which can be clicked to view more details on a separate page. The data for the products is obtained from a public API.
-
 # Online Shopping Store
 This is a web application for an online shopping store built using HTML, CSS, and JavaScript. The application allows users to login and view a list of products, which can be clicked to view more details on a separate page. The data for the products is obtained from a public API. The application also features a logout button that clears the user's information from local storage and redirects them back to the login page.
 
@@ -16,5 +14,3 @@ CSS
 JavaScript
 # Authors
 Anbu Thuran
-# Acknowledgments
-Fake Store API for providing product data
